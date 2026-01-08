@@ -29,7 +29,7 @@ def now_str() -> str:
 
 def send_text_message(channel_access_token: str, to: str, text: str) -> bool:
     """
-    呼叫 LINE Messaging API Push API 送出文字訊息
+    呼叫 LINE Messaging API Push API 送出文字訊息（照講義格式）
     """
     headers = {
         "Content-Type": "application/json",
