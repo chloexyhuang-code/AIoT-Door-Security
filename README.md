@@ -3,9 +3,9 @@
 
 ## 系統架構
 
-- 邊緣端：Raspberry Pi 5 + 感測器 + LED
-- 通訊協定：MQTT
-- 雲端平台：AWS IoT Core、Lambda、DynamoDB
-- 通知服務：LINE Notify
+邊緣端：Raspberry Pi 5 + 感測器 + LED
+通訊協定：MQTT
+雲端平台：AWS IoT Core、Lambda、DynamoDB
+通知服務：LINE Messaging
 
 硬體接線說明：HC-SR501 接到 GPIO 17；門磁開關接到 GPIO 27；LED 接到 GPIO 22
