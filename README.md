@@ -18,4 +18,13 @@
 - HC-SR501 人體紅外線感測器 GPIO 17
 - MC-38 有線門磁感測器 GPIO 27
 - LED 燈 GPIO 22
+## 檔案說明
+
+- `main.py`：主程式，讀取感測器狀態、做邏輯判斷、控制 LED，並在偵測到異常時透過 LINE Messaging API 即時推播警示訊息到手機。
+- `gpio.py`：GPIO 腳位與感測器讀取相關程式
+- `MQTT_main.py`：MQTT 連線與訊息發布
+- `lambda_function.py`：AWS Lambda 雲端處理程式
+- `test_HC-SR501.py`：人體感測器測試程式
+- `requirements.txt`：Python 套件需求清單
+
 
