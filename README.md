@@ -26,7 +26,7 @@
 - `lambda_function.py`：AWS Lambda 雲端處理程式。
 - `test_HC-SR501.py`：人體感測器測試程式。
 - `requirements.txt`：所需的Python套件。
-- 
+- `mqtt.py`：在樹莓派上讀取人體紅外線感測器和門磁開關的狀態，並把結果透過 MQTT 上傳到 AWS IoT Core。
 
 
 
