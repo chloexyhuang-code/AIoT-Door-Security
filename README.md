@@ -22,9 +22,11 @@
 
 - `main.py`：主程式，讀取感測器狀態、做邏輯判斷、控制 LED，並在偵測到異常時透過 LINE Messaging API 即時推播警示訊息到手機。
 - `.env`：放置LINE、AWS的設定值。
-- `MQTT_main.py`：MQTT 連線與訊息發布
-- `lambda_function.py`：AWS Lambda 雲端處理程式
-- `test_HC-SR501.py`：人體感測器測試程式
-- `requirements.txt`：Python 套件需求清單
+- `MQTT_main.py`：MQTT 連線與訊息發布。
+- `lambda_function.py`：AWS Lambda 雲端處理程式。
+- `test_HC-SR501.py`：人體感測器測試程式。
+- `requirements.txt`：所需的Python套件。
+- 
+
 
 
