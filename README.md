@@ -15,10 +15,7 @@
 - 杜邦線
 ## GPIO 腳位
 
-- HC-SR501 人體紅外線感測器_GPIO 17
-- MC-38 有線門磁感測器
-- LED 燈
-- 杜邦線
+- HC-SR501 人體紅外線感測器 GPIO 17
+- MC-38 有線門磁感測器 GPIO 27
+- LED 燈 GPIO 22
 
-
-硬體接線說明：HC-SR501 接到 GPIO 17；門磁開關接到 GPIO 27；LED 接到 GPIO 22
